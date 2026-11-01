@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Local development artifacts
+.venv/
+node_modules/
+.next/
+out/
+coverage/
+dist/
+build/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.sqlite3
+*.db
+*.tsbuildinfo
